@@ -8,7 +8,7 @@ df = pd.read_csv('clean_relations.csv')
 # 请根据你的数据库设置修改以下 URL、用户名和密码
 uri = "bolt://localhost:7687"  # Neo4j 服务的地址
 username = "neo4j"  # Neo4j 用户名
-password = "Mylove030122"  # Neo4j 密码
+password = "***"  # Neo4j 密码
 
 # 创建 Graph 对象
 graph = Graph(uri, auth=(username, password))
